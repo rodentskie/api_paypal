@@ -1,0 +1,29 @@
+{
+  "name": "api_paypal",
+  "version": "1.0.0",
+  "description": "API integration to PayPal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodentskie/api_paypal.git"
+  },
+  "author": "Rodney Lingganay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodentskie/api_paypal/issues"
+  },
+  "homepage": "https://github.com/rodentskie/api_paypal#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
